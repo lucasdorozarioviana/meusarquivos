@@ -1,0 +1,121 @@
+<CFe>
+	<infCFe Id="CFe41190482373077000171599000037880009366701466" versao="0.08" versaoDadosEnt="0.08" versaoSB="030000">
+		<ide>
+			<cUF>41</cUF>
+			<cNF>670146</cNF>
+			<mod>59</mod>
+			<nserieSAT>900003788</nserieSAT>
+			<nCFe>000936</nCFe>
+			<dEmi>20190422</dEmi>
+			<hEmi>083902</hEmi>
+			<cDV>6</cDV>
+			<tpAmb>2</tpAmb>
+			<CNPJ>16716114000172</CNPJ>
+			<signAC>SGR-SAT SISTEMA DE GESTAO E RETAGUARDA DO SAT</signAC>
+			<assinaturaQRCODE>EJ4squnJHUiazPi3tjsjwSF2VXJhmkEJEMkDgFICapUJxpUppwPbzsOHlXbb6043WRA5MUqoQ722H2qpt+UikfEkyP0zMxWJofpFrqf0Fz6GwfgU7Z5dzO/ZkMWlMs/nxBqMI6S/eSBDgmn1rDYV5onWH2xVTGS7O58lS9QabnCieJ33yoq/oLzjjMg6gVy98KbRXOzn3wzo/G4zZMPpSdy+NT5kPRlnhgneb9Lr+P/9tXQCrl8GYYmdRhHiA1LvW/Gciw8Msc1rASACLeTDKVS/Lrv+Io3sZlTC0YxbSrzibc9xhwNVPjO2I8RTdhijetCxR89GriXKcs2bc/8E+A==</assinaturaQRCODE>
+			<numeroCaixa>129</numeroCaixa>
+		</ide>
+		<emit>
+			<CNPJ>82373077000171</CNPJ>
+			<xNome>BEMATECH S.A</xNome>
+			<enderEmit>
+				<xLgr>AVENIDA RUI BARBOSA</xLgr>
+				<nro>2529</nro>
+				<xCpl>: MODULOS 06 07 E 08;</xCpl>
+				<xBairro>IPE</xBairro>
+				<xMun>SAO JOSE DOS PINHAIS</xMun>
+				<CEP>83055320</CEP>
+			</enderEmit>
+			<IE>111111111111</IE>
+			<cRegTrib>1</cRegTrib>
+			<indRatISSQN>S</indRatISSQN>
+		</emit>
+		<dest>
+			<CPF/>
+		</dest>
+		<det nItem="1">
+			<prod>
+				<cProd>0112</cProd>
+				<cEAN>7896512920683</cEAN>
+				<xProd>Manopla do Infinito</xProd>
+				<NCM>73181600</NCM>
+				<CFOP>5102</CFOP>
+				<uCom>M</uCom>
+				<qCom>1.0000</qCom>
+				<vUnCom>10.00</vUnCom>
+				<vProd>10.00</vProd>
+				<indRegra>A</indRegra>
+				<vDesc>0.00</vDesc>
+				<vOutro>0.00</vOutro>
+				<vItem>10.00</vItem>
+				<obsFiscoDet xCampoDet="Cod. CEST">
+					<xTextoDet>2105300</xTextoDet>
+				</obsFiscoDet>
+			</prod>
+			<imposto>
+				<ICMS>
+					<ICMSSN102>
+						<Orig>1</Orig>
+						<CSOSN>500</CSOSN>
+					</ICMSSN102>
+				</ICMS>
+				<PIS>
+					<PISNT>
+						<CST>04</CST>
+					</PISNT>
+				</PIS>
+				<COFINS>
+					<COFINSNT>
+						<CST>04</CST>
+					</COFINSNT>
+				</COFINS>
+			</imposto>
+		</det>
+		<total>
+			<ICMSTot>
+				<vICMS>0.00</vICMS>
+				<vProd>10.00</vProd>
+				<vDesc>0.00</vDesc>
+				<vPIS>0.00</vPIS>
+				<vCOFINS>0.00</vCOFINS>
+				<vPISST>0.00</vPISST>
+				<vCOFINSST>0.00</vCOFINSST>
+				<vOutro>0.00</vOutro>
+			</ICMSTot>
+			<vCFe>10.00</vCFe>
+			<vCFeLei12741>3.59</vCFeLei12741>
+		</total>
+		<pgto>
+			<MP><cMP>01</cMP>
+				<vMP>10.00</vMP>
+			</MP>
+			<vTroco>0.00</vTroco>
+		</pgto>
+		<infAdic>
+			<infCpl>ATENDENTE: ANOES ATENDENTES  ; OPERADOR: ANAO FORJADOR  ; MOTIVO: PODER DAS JOIAS DO INFINITO</infCpl>
+		</infAdic>
+		<obsFisco xCampo="xCampo1">
+			<xTexto>xTexto1</xTexto>
+		</obsFisco>
+	</infCFe>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+			<Reference URI="#CFe41190482373077000171599000037880009366701466">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+				<DigestValue>QWC19R6Iw3ZtZ5H72bu84cy2ynIbhfTrzCVHgMHU/IM=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>h80hgphZh2c4QqVK4mFw88Eh9MlKB4IulnTM47Q2U/giUUnL7VLkRqaQ6zBy2EEzDdYvQt1tMhGk+vN3zMJT/ju49uv3C608TKZ0km7MsprEk4Ep2GYis5rfLv/Zh7U/sfVXoWHobOEjIMjRtoXomLwKqeLgJQvaTVN+1R/tdP9mYlp1NE+VdBKUIkMzUJjRCAZLBvf720Ncee+rZnp9SB2nPvKUQ8/u0tgRCFkuwlVzJP3Wn1NwXrA6iXdHgBIiudAxG/I3nMAF1aZ8R4wrPlr5nadcp4n63oYJyG9JsUT0ZDVLjYZDqBoJ8TpFz/bcwid5jSlfoylmxgEj7Sqyeg==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509Certificate>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</X509Certificate>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFe>
