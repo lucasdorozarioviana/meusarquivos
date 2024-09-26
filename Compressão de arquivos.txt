@@ -1,0 +1,18 @@
+#Compressão de arquivos
+
+compactar Ubuntu
+
+sudo 7z a /tmp/nomedozip.7z /tmp/nomedoarquivo.txt
+
+descompactar Ubuntu
+
+7z x Arquivo.7z
+
+Descompactar Centos
+
+descompactar
+7za x tes.7z
+
+compactar
+7za a file.7z teste.txt
+_______________________________

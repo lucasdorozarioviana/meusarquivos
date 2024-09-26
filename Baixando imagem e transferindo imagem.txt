@@ -1,0 +1,5 @@
+#Baixando imagem e transferindo imagem
+
+docker save -o arquivo.tar.gz dockerimagem.com.br/imagem:versao
+scp arquivo.tar.gz usuario@host:/tmp/
+docker load < arquivo.tar.gz

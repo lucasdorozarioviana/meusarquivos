@@ -1,0 +1,7 @@
+# Baixar heap Dump
+
+jmap -dump:live,format=b,file=/tmp/dump.hprof pid
+
+#ou
+
+jcmd 1 GC.heap_dump /tmp/ndump.hprof

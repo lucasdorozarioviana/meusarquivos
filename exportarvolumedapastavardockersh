@@ -1,0 +1,6 @@
+#exportar volume da pasta /var/lib/docker/volumes para um arquivo e mover para a pasta tmp
+
+cd /
+cd /var/lib/docker/volumes
+sudo du -h | egrep -v "\./.+/" | sort -h > volume.txt
+mv volume.txt /tmp

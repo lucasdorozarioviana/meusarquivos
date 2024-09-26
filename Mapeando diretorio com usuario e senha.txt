@@ -1,0 +1,8 @@
+#Mapeando diretorio com usuario e senha
+
+mount -t cifs //ipdoservidorqueirasermapeado/pasta /opt/pastaparamapeamento/ -o user=user,dir_mode=0777,file_mode=0777,uid=1000,gid=1000
+
+Outro
+mount -t cifs //ipdoservidorqueirasermapeado/pasta /opt/pastaparamapeamento -o user=user,password='senha',iocharset=utf8,dir_mode=0777,file_mode=0777,uid=1000,gid=1000,vers=3.0
+
+mount -t cifs //ipdoservidorqueirasermapeado/pasta /opt/pastaparamapeamento -o user=user,iocharset=utf8,dir_mode=0777,file_mode=0777,uid=1000,gid=1000,vers=3.0

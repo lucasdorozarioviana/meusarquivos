@@ -1,0 +1,3 @@
+#Verificar portsa abertas no server
+
+netstat -tulpn

@@ -1,0 +1,6 @@
+#Verificar sessão aberta
+
+who -aH
+comando w
+#depois comando ps -ef |grep pts/5 (sessão mais antiga)
+comando kill -9 PID antigo

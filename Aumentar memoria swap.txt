@@ -1,0 +1,13 @@
+#Aumentar memoria swap
+
+swapoff -a
+
+fallocate -l 4G /swap.img
+
+chmod 600 /swap.img
+
+mkswap /swap.img
+
+swapon /swap.img
+
+swapon -a

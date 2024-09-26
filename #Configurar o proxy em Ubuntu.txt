@@ -1,0 +1,30 @@
+#Configurar o proxy em Ubuntu. 
+
+A resposta demorava e nao concluia. Para testar se as configuraçoes de proxy existem, digitar no shell os dois comandos um de cada vez:
+env
+export
+
+Se nao existem, editar 3 arquivos:
+/etc/environment
+/etc/apt/apt.conf
+/etc/profile
+
+nano /etc/environment
+http_proxy=http://enderecoproxy:8080/
+https_proxy=http://enderecoproxy:8080/
+ftp_proxy=http://enderecoproxy:8080/
+
+nano /etc/apt/apt.conf
+Acquire::http::Proxy "http://enderecoproxy:8080";
+Acquire::https::Proxy "http://enderecoproxy:8080";
+Acquire::ftp::Proxy "http://enderecoproxy:8080";
+
+nano /etc/profile
+acrescentar ao final do arquivo:
+http_proxy="http://enderecoproxy:8080"
+https_proxy="http://enderecoproxy:8080"
+ftp_proxy="http://enderecoproxy:8080"
+export http_proxy https_proxy ftp_proxy
+
+No Ubuntu 18.04 original o arquivo com as configuraçoes de proxy fica no:
+/etc/apt/apt.conf.d/90curtin-aptproxy

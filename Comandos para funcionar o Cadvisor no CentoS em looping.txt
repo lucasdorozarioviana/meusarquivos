@@ -1,0 +1,5 @@
+## Comandos para funcionar o Cadvisor no CentoS em looping
+
+ mount -o remount,rw '/sys/fs/cgroup'
+
+ ln -s /sys/fs/cgroup/cpu,cpuacct /sys/fs/cgroup/cpuacct,cpu

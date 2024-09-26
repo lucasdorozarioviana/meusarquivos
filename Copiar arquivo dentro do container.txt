@@ -1,0 +1,3 @@
+#Copiar arquivo dentro do container
+docker cp container:/opt/java/jboss-4.3.0.GA/server/production/log/server.log.10 /tmp/arquivo.txt
+_______________________________________________________________

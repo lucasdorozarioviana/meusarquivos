@@ -1,0 +1,5 @@
+#Realizar backup do mongo
+
+mongodump -o arquivobkp
+
+mongorestore -o arquivobpk /tmp/first_backup

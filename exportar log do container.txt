@@ -1,0 +1,3 @@
+#Download log do container
+
+docker logs f47bc6c9d325 > /tmp/log.txt

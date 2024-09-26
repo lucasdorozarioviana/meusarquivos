@@ -1,0 +1,4 @@
+#Testar conexão zabbix com container
+
+
+zabbix_get -k agent.ping -p 10055 -s nomedocontainer

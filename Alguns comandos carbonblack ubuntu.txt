@@ -1,0 +1,11 @@
+#Alguns comandos carbonblack ubuntu
+
+
+Desinstalar carbon Black
+
+sudo dpkg --purge cb-psc-sensor
+________________________________________________________________
+
+Verificar versão do agent do carbon
+
+Entrar na pasta /opt/carbonblack/psc/bin e executar o comando ./cbagentd --version

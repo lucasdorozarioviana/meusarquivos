@@ -1,0 +1,4 @@
+#Copiando arquivo do container para o host
+
+docker cp 0fa252ac0855:/tmp/dump.hprof dump.hprof
+containerid:caminhodoarquivodentrodocontainer localondevaisersalvooarquivo

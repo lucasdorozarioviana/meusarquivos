@@ -1,0 +1,5 @@
+#Cron para enviar tamanho de disco do servidor linux para um arquivo.
+#basta incluir o arquivo na cron do linux no horario que deseja executar
+
+
+df -h >> /tmp/disco.txt

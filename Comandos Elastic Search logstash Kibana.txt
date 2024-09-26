@@ -1,0 +1,16 @@
+#Comandos Elastic Search / logstash / Kibana
+
+
+II  - Comandos p/ remoção dos índices:
+    curl -XDELETE http://[IP_HOST_ELASTIC]:9200/indice
+
+III - Comandos p/ desbloquear os indices
+$ curl -XPUT -H "Content-Type: application/json" http://ipdoservdor:9200/_all/_settings -d '{"index.blocks.read_only_allow_delete": null}'
+
+IV - Indexação manual:
+
+1. Acessar container do logstash
+2. Ir até a pasta: /usr/share/logstash
+3. Executar comando: logstash -f indice_manual.config --path.data indicenovo (novoindice)
+
+logstash -f indice_manual.config --path.data novoindice

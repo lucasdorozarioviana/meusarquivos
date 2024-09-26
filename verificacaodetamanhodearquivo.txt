@@ -1,0 +1,5 @@
+#Limpeza de disco - procurando arquivos maiores que 90MB
+find / -size +90M 
+
+#Verificar tamanho dos arquivos de uma pasta especifica
+sudo du -h | egrep -v "\./.+/" | sort -h

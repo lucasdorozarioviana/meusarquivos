@@ -1,0 +1,11 @@
+#exclusao de Imagens do docker do servidor que estão com o disco cheio
+
+#Exemplo
+
+docker images | grep ubuntu
+
+docker ps -a | grep ubuntu #verificar se nao esta em execuçãi
+
+docker rmi -f imagem
+
+docker rmi -f iddaimagem

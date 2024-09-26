@@ -1,0 +1,6 @@
+#Tcp dump docker
+
+tcpdump -i docker0 > /home/lucas.rozario/dump.txt
+
+
+tcpdump -i docker0 -c50 > /home/lucas.rozario/dump.txt

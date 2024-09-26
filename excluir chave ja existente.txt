@@ -1,0 +1,4 @@
+#excluir chave ja existente
+
+ssh-keygen -f "/root/.ssh/known_hosts" -R ipdohost
+

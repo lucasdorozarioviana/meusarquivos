@@ -1,0 +1,4 @@
+#Pegar informação de proxy
+
+azcmagent config get proxy.url
+______________________________________

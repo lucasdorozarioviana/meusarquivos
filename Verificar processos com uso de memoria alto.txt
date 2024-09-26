@@ -1,0 +1,7 @@
+#Verificar processos com uso de memoria alto
+
+ps -o pid,user,%mem,command ax | sort -b -k3 -r
+
+sudo pmap PID | tail -n 1
+
+ps axo %mem,pid,euser,cmd | sort -nr | head -n 10

@@ -1,0 +1,10 @@
+#Manutenção de memoria no servidor
+
+1- Limpe o cache apenas:
+# sync; echo 1 > /proc/sys/vm/drop_caches
+
+2- Limpar dentries e inodes:
+# sync; echo 2 > /proc/sys/vm/drop_caches
+
+3- Limpar cache, dentries e inodes.
+# sync; echo 3 > /proc/sys/vm/drop_caches 

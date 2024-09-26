@@ -1,0 +1,7 @@
+#Limpeza pasta Docker 
+
+$ /etc/init.d/docker stop
+$ cd /var/lib/docker
+$ rm -rf *
+
+#apos isso reinicie o docker

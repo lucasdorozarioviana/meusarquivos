@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#sudo postconf -e message_size_limit=0
+
+
+CAMINHO=/tmp
+
+CONTAINER=$(docker ps -a |grep -i debian| cut -d ' ' -f1)
+
+docker logs $CONTAINER > $CAMINHO/debian$(date +%d%m%Y).log 2>/dev/null
+
+

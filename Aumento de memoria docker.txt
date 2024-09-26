@@ -1,0 +1,3 @@
+#Aumento de memoria docker
+
+docker update -m 3584M container
